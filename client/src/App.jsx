@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import BlogCard from "./components/BlogCard";
 import "./App.css";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://new-blog-app-1.onrender.com";
 
 function App() {
   const [blogs, setBlogs] = useState([]);
